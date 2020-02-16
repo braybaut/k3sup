@@ -11,4 +11,5 @@ require (
 	github.com/spf13/cobra v0.0.5
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
 	golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // indirect
+	gopkg.in/src-d/go-git.v4 v4.13.1
 )

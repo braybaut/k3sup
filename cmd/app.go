@@ -93,6 +93,7 @@ func MakeApps() *cobra.Command {
 	install.AddCommand(apps.MakeInstallPostgresql())
 	install.AddCommand(apps.MakeInstallKubernetesDashboard())
 	install.AddCommand(apps.MakeInstallIstio())
+	install.AddCommand(apps.MakeInstallTraefik2())
 
 	command.AddCommand(info)
 
@@ -115,5 +116,6 @@ func getApps() []string {
 		"postgresql",
 		"kubernetes-dashboard",
 		"istio",
+		"traefik2",
 	}
 }
